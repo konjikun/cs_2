@@ -1,0 +1,19 @@
+body{font-family : sans-serif ;}
+h1{ background-color : #444444;
+color : #FFFFFF;
+text-align : center}
+
+
+h2{background-color : #ccccee;
+border-bottom: solid 3px #8787f2;}
+
+td{background-color :#eeeeee}
+
+th{background-color : #cccccc}
+
+strong{background-color : #cccccc}
+
+form{padding : 10px 10px 10px 10px ; background-color : #eeeeee}
+form{border : solid 3px #cccccc}
+
+
