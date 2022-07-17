@@ -57,6 +57,7 @@ function sample2_4_1() {
   let content = document.getElementById('content');
   let value = textarea.value;
   content.innerHTML = value;
+  console.log(value);
 }
 
 // IDがcontentである要素に、テキストエリアの内容をテキストとして設定する
@@ -65,6 +66,7 @@ function sample2_4_2() {
   let content = document.getElementById('content');
   let value = textarea.value;
   content.textContent = value;
+  console.log(value);
 }
 
 // Sample 2-5

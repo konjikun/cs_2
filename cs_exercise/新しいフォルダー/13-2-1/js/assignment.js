@@ -1,15 +1,14 @@
 // Assignment
 let cnt = 0;
 function plus() {
-    
-// 
-// ここにコードを書きましょう。
-//
+cnt++;
+element = document.getElementById('count')
+element.textContent = String(cnt)
 }
 
 function minus() {
-
-//
-//　ここにコードを書きましょう。
-//
+cnt--;
+element = document.getElementById('count')
+element.textContent = String(cnt)
 }
+
