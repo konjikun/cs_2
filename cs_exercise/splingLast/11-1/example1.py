@@ -1,0 +1,1 @@
+s= '\"I\'mhere," said Alice.\n But she was not there.'
