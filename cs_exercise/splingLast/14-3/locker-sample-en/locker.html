@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>INIAD Locker</title>
+    <link rel="stylesheet" type="text/css" href="css/sample-api.css" />
+  </head>
+  <body>
+
+    <h1>INIAD My Locker</h1>
+    <p>
+      <label for="iniad-id">INIAD Account</label>
+      <input id="iniad-id" type="text">
+    </p>
+    <p>
+      <label for="iniad-pw">INIAD Password</label>
+      <input id="iniad-pw" type="password">
+    </p>
+
+    <h2>Get Locker Information</h2>
+    <button onclick="getLockerPosition()">Get Locker Info</button>
+    <div class="result">
+      <p>
+        API call result: <span id="locker-result"></span> <br />
+        Locker address: <span id="locker-address"></span> <br />
+        Locker floor: <span id="locker-floor"></span>
+      </p>
+    </div>
+
+    <h2>Get IC Card Information</h2>
+    <button onclick="getRegisteredIccard()">Get IC Card Info</button>
+    <div class="result">
+      <p>
+        API call result: <span id="iccard-result"></span> <br />
+        IC card ID: <span id="iccard-id"></span> <br />
+        IC card comment: <span id="iccard-comment"></span>
+      </p>
+    </div>
+
+    <h2>Register IC Card</h2>
+    <p>
+      <label for="register-iccard-num">IC Card ID</label>
+      <input id="register-iccard-num" type="text">
+      <label for="register-iccard-comment">Comment</label>
+      <input id="register-iccard-comment" type="text">
+    </p>
+    <button onclick="registerIccard()">Register IC Card</button>
+    <div class="result">
+      <p>
+        API call result: <span id="register-result"></span> <br />
+      </p>
+    </div>
+
+
+    <h2>Delete IC Card</h2>
+    <button onclick="deleteIccard()">Delete IC Card</button>
+    <div class="result">
+      <p>
+        API call result: <span id="delete-result"></span> <br />
+      </p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/iniad_api.js"></script>
+    <script type="text/javascript" src="js/locker_info.js"></script>
+    <script type="text/javascript" src="js/locker_open.js"></script>
+  </body>
+</html>
