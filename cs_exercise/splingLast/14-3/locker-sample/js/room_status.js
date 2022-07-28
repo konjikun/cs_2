@@ -1,7 +1,7 @@
 let BASE_URL = "https://edu-iot.iniad.org/api/v1";
 
 function displayRoomStatus(result) {
-
+humidity.textContent
 }
 
 function getRoomStatus() {
@@ -11,7 +11,7 @@ function getRoomStatus() {
 
   // let userpw =
   let userpw = document.getElementById("iniad-pw")
-let userPw =userid.value
+let userPw =userpw.value
 
   // let roomNum =
   let roomNum = document.getElementById("room-number")
