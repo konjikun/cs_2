@@ -1,0 +1,62 @@
+h1 {
+    border-bottom: #0F50C6 4px solid;
+    color: #0F50C6;
+    padding: 10px 10px 10px 10px;
+}
+
+h2 {
+    margin: 0px 0px 10px 0px;
+    padding: 5px 10px 5px 10px;
+    background-color: #0F50C6;
+    color: #FFFFFF;
+}
+
+div.section {
+    margin: 10px 0 10px 0;
+    padding: 0px 0px 10px 0px;
+    background-color: #EEEEEE;
+}
+
+table {
+    margin: 10px;
+}
+
+th {
+    background-color: #AAAAAA;
+    padding: 5px 10px 5px 10px;
+}
+
+td.time {
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+td.eng {
+    padding: 5px 10px 5px 10px;
+    background-color: #FFDDDD;
+}
+
+td.bus {
+    padding: 5px 10px 5px 10px;
+    background-color: #DDDDFF;
+}
+
+td.cs {
+    padding: 5px 10px 5px 10px;
+    background-color: #FFFFDD;
+}
+
+td.phy {
+    padding: 5px 10px 5px 10px;
+    background-color: #FFFFFF;
+}
+
+span.alert {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+#caution {
+    color: #FF0000;
+    text-align: right;
+}
